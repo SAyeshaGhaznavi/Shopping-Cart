@@ -31,8 +31,8 @@ export default function ShoppingCart() {
     return (
       <Card className="sticky top-4">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <ShoppingCartIcon className="w-5 h-5" />
+          <CardTitle className="flex items-center text-blue-900 gap-2">
+            <ShoppingCartIcon className="w-5 h-5 text-blue-900" />
             Shopping Cart
           </CardTitle>
         </CardHeader>
@@ -47,8 +47,8 @@ export default function ShoppingCart() {
     <Card className="sticky top-4">
       <CardHeader>
         <CardTitle className="flex items-center justify-between py-3">
-          <span className="flex items-center gap-2">
-            <ShoppingCartIcon className="w-5 h-5" />
+          <span className="flex items-center text-blue-900 gap-2">
+            <ShoppingCartIcon className="w-5 h-5 text-blue-900" />
             Shopping Cart
           </span>
           <span className="text-sm font-normal text-gray-500">
@@ -103,7 +103,7 @@ export default function ShoppingCart() {
         <Separator />
         <div className="flex items-center justify-between w-full py-8">
         <div className="flex gap-5 items-center">
-          <h1 className="text-xl font-semibold">Total:</h1>
+          <h1 className="text-xl font-semibold text-blue-950">Total:</h1>
           <h1 className="text-xl font-bold text-green-600">${cartTotal.toFixed(2)}</h1>
         </div>
         <div className="flex gap-x-4">
